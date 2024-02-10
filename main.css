@@ -33,3 +33,32 @@ Primary:
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%; /*ie 10 px=1 rem*/
+}
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+}
+.hero {
+  max-width: 130rem;
+  display: flex;
+}
+.hero-text-box{
+    flex: 1;
+}
+.hero-img-box {
+  flex: 1;
+}
+
+.hero-img {
+  width: 100%;
+}
