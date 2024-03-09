@@ -44,6 +44,9 @@ Secondary heading: 1.2
 
 06----BORDER-RADIUS
 
+10px
+11px
+
 07----WHITESPACE
 
 --Spacing system (pa)
@@ -161,4 +164,8 @@ body {
 }
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }
