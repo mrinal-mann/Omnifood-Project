@@ -38,6 +38,7 @@ Secondary heading: 1.2
 --Greys:
 #555  
 #333
+#6f6f6f
 
 
 05----SHADOWS
@@ -178,7 +179,7 @@ body {
   border-bottom: 1px solid transparent;
 }
 /* HELPER CLASSES */
-.text-center{
+.text-center {
   text-align: center;
 }
 
