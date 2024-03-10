@@ -473,9 +473,6 @@
 .contact-form label::placeholder {
   color: #aaa;
 }
-.contact-form button {
-}
-
 .cta*:focus {
   outline: none;
   box-shadow: 0 0 0 0.8px hsla(26, 84%, 95%, 0.521);
