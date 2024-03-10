@@ -402,3 +402,81 @@
   font-size: 1.8rem;
   line-height: 1.8;
 }
+
+/**********************************/
+/* CONTACT SECTION */
+/**********************************/
+
+.contact-section {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #e67e22; */
+  background-image: linear-gradient(to right bottom, #eb984b, #e67e22);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.contact-text-box {
+  color: #45260a;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+.contact-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.contact-text-box .secondary-heading {
+  color: #45260a;
+  margin-bottom: 3.2rem;
+}
+.contact-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      hsla(29, 80%, 61%, 0.35),
+      hsla(28, 80%, 52%, 0.35)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.contact-form input,
+.contact-form select {
+  padding: 1.2rem;
+  width: 100%;
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  color: inherit;
+  background-color: #fdf2e9;
+  border-radius: 11px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.contact-form label::placeholder {
+  color: #aaa;
+}
+.contact-form button {
+}
+
+.cta*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8px hsla(26, 84%, 95%, 0.521));
+}
